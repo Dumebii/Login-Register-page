@@ -5,16 +5,6 @@ var isLoggedIn = false;
 
 function App() {
   
-  const [isHoverEffect, setHoverEffect] = React.useState(false);
-
-
-
-  function setHover() {
-    setHoverEffect(true);
-  }
-  function setHover2() {
-    setHoverEffect(false);
-  }
   
   return (
     <div className="container">
